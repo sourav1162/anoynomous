@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Different types of fade event</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+</head>
+<body>
+
+	<div class="container mt-3 d-flex align-items-center justify-content-center">
+		<div id="div1" class="bg-info mx-2" style="height: 100px; width: 100px;"></div>
+		<div id="div2" class="bg-primary mx-2" style="height: 100px; width: 100px;"></div>
+		<div id="div3" class="bg-success mx-2" style="height: 100px; width: 100px;"></div>
+	</div>
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-3">
+				<button id="btn1" class="btn btn-outline-primary btn-block mx-1">FadeIn</button>
+			</div>
+			<div class="col-3">
+				<button id="btn2" class="btn btn-outline-primary btn-block mx-1">FadeOut</button>
+			</div>
+			<div class="col-3">
+				<button id="btn3" class="btn btn-outline-primary btn-block mx-1">FadeToggle</button>
+			</div>
+			<div class="col-3">
+				<button id="btn4" class="btn btn-outline-primary btn-block mx-1">FadeTo</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#btn1').click(function(){
+				$('#div1').fadeIn();
+				$('#div2').fadeIn('slow');
+				$('#div3').fadeIn(3000);
+			});
+			$('#btn2').click(function(){
+				$('#div1').fadeOut();
+				$('#div2').fadeOut('slow');
+				$('#div3').fadeOut(3000);
+			});
+			$('#btn3').click(function(){
+				$('#div1').fadeToggle();
+				$('#div2').fadeToggle('slow');
+				$('#div3').fadeToggle(3000);
+			});
+			$('#btn4').click(function(){
+				$('#div1').fadeTo('slow',0.1);
+				$('#div2').fadeTo('slow',0.4);
+				$('#div3').fadeTo('slow',0.8);
+			});
+		});
+	</script>
+
+</body>
+</html>
