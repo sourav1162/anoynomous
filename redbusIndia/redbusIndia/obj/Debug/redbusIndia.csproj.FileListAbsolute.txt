@@ -2,3 +2,7 @@ D:\sourav asp.net\redbusIndia\redbusIndia\bin\redbusIndia.dll
 D:\sourav asp.net\redbusIndia\redbusIndia\bin\redbusIndia.pdb
 D:\sourav asp.net\redbusIndia\redbusIndia\obj\Debug\redbusIndia.dll
 D:\sourav asp.net\redbusIndia\redbusIndia\obj\Debug\redbusIndia.pdb
+D:\temp\redbusIndia\redbusIndia\bin\redbusIndia.dll
+D:\temp\redbusIndia\redbusIndia\bin\redbusIndia.pdb
+D:\temp\redbusIndia\redbusIndia\obj\Debug\redbusIndia.dll
+D:\temp\redbusIndia\redbusIndia\obj\Debug\redbusIndia.pdb

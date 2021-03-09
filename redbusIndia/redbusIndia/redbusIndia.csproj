@@ -54,6 +54,8 @@
     <Content Include="index.aspx" />
     <Content Include="layout.js" />
     <Content Include="rpool.aspx" />
+    <Content Include="rpoolStyle1.css" />
+    <Content Include="rpoolStyle2.css" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
     <Content Include="StyleSheet3.css" />
