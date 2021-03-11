@@ -1,0 +1,320 @@
+
+.carousel-caption  div p { background-color:rgba(0,170,254,0.7); padding:20px; color:#FFF !important;     -webkit-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);}
+.carousel-caption  div  {  }
+
+ .carousel-caption {padding-bottom:12vh !important }
+ .height_Class { min-height:405px !important}
+@media screen and (max-width: 767px) {
+	 .navbar-fixed-top {position:inherit !important}
+	 .navbar-toggle {margin-top:5px !important; right:-15px !important;}
+	 .footer_bg{
+        -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0 100%) !important;
+                clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0 100%) !important;
+      }
+   .carousel-caption {padding-bottom:0vh }
+	.carousel-caption  div p { background-color:rgba(0,170,254,0.0); padding:0px; color:#FFFFFF !important;-webkit-box-shadow: none;
+    box-shadow: none; font-size:12px !important; line-height:12px !important; text-shadow:none; margin-top:-20px}
+	.carousel-caption div span strong {text-align:left !important; margin-top:10px  !important; }
+	
+	.carousel-caption { top:-10px !important}
+	.carousel-caption .center {text-align:left !important}
+	
+	
+ 
+	.navbar-collapse  { padding:0px 20px !important; background-color:#001F37; border:none !important}
+	
+	.navbar-header { margin-top:90px; padding-right:20px !important}
+	
+	
+	
+	
+	.h_text {
+			 padding-top:50px; 
+			 padding-bottom:25px
+		}
+	
+	.h_text h1 {
+			 font-size:24px;
+		}
+	 
+}
+
+@media (min-width: 768px) {
+	 
+
+	 .h_text {
+			 padding-top:50px; 
+			 padding-bottom:25px
+		}
+	
+	.h_text h1 {
+			 font-size:34px;
+		}
+		
+		
+	
+}
+
+@media (min-width: 992px) {
+	
+	 .h_text {
+			 padding-top:150px; 
+			 padding-bottom:100px
+		}
+	
+	.h_text h1 {
+			 font-size:50px;
+		}
+ 
+}
+
+@media (min-width: 1200px) {
+	
+	.bgimg-1 {
+            background-image: url("images/College_02.jpg");
+            min-height: 100%;
+        }
+
+        .bgimg-2 {
+            background-image: url("images/college.jpg");
+            min-height: 358px;
+        }
+		  .bgimg-2_01 {
+            background-image: url("#");
+            min-height: 360px;
+        }
+
+        .bgimg-3 {
+            background-image: url("images/College_01.jpg");
+            min-height: 590px;
+        }
+
+        .bgimg-4 {
+            background-image: url("images/College_02.jpg");
+            min-height: 500px;
+        }
+.bgimg-5 {
+            background-image: url("images/College_02.jpg")
+            min-height: 500px;
+        }
+.bgimg-6 {
+            background-image: url("images/Varkala-Beach,%20kerala.jpg")
+            min-height: 500px;
+        }
+	
+	
+	
+	.news{
+width:100%;
+background-color:#0C98D1; 
+text-shadow: 0 0 6px #ffffff;
+box-shadow:  0 0 10px #fff;
+padding:12px;
+}
+
+
+	 .h_text {
+			 padding-top:150px; 
+			 padding-bottom:100px
+		}
+	
+	.h_text h1 {
+			 font-size:55px;
+		}
+	 
+}
+
+.hero_img { height: 800px;
+   }
+
+
+
+.n_heading { 
+	font-size: 30px;
+    font-weight: bold;
+	text-transform:uppercase
+    
+	}
+
+.n_text{
+ 	font-size: 16px;
+    color: #7d7d7d;
+}
+
+.box {
+    border: none;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(168, 157, 157, 0.31);
+            box-shadow: 0px 0px 5px 0px rgba(168, 157, 157, 0.31);
+    padding: 35px 20px;
+    margin-bottom: 60px;
+	transition:250ms ease;
+
+	  }
+
+.box:hover{
+      -webkit-box-shadow: 2px 5.66px 20px 0px rgba(136, 136, 136, 0.4);
+              box-shadow: 2px 5.66px 20px 0px rgba(136, 136, 136, 0.4);
+    }
+
+
+.box h4 { 
+    font-size: 22px;
+    font-weight: bold;
+    color: #4f4f4f;
+    margin-top: 25px;
+    margin-bottom: 15px;
+	transition:250ms ease;
+  }
+
+.box:hover h4{
+	color:#00aafe;
+    }
+
+.box i {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgba(235,248,255);
+    color: rgba(0,170,254,1);
+    font-size: 40px;
+    line-height: 90px;
+	transition:250ms ease;
+  }
+
+.box:hover i{
+	background-color: rgba(0,170,254,1);
+    color:rgba(235,248,255) ;
+    }
+
+
+
+.n_number ul li{
+      list-style-type: none;
+      display: inline-block;
+      padding-right: 70px;
+      padding-left: 70px;
+      margin-top: -10px;
+    }
+
+
+
+.s_icon a:hover { color:#00CBFF}
+
+
+	
+.btn_1  { 
+	padding:10px 30px; 
+	border:2px rgba(255,255,255,1.00) solid; 
+	max-width:200px; 
+	width:100%; 
+	font-size:24px; 
+	color:rgba(255,255,255,1.00); 
+	text-align:center;
+	transition:250ms ease
+	}
+
+.btn_1:hover {color: rgba(71,71,71,1.00); background-color:rgba(255,255,255,0.61)}
+
+
+
+.btn_2  { 
+	padding:8px 20px; 
+	border:2px rgba(255,255,255,1.00) solid; 
+	max-width:190px; 
+	width:100%; 
+	font-size:20px; 
+	color:rgba(255,255,255,1.00); 
+	text-align:center;
+	transition:250ms ease
+	}
+
+.btn_2:hover {color:#4f4f4f; background-color: rgba(255,255,255,1.00) }
+ 
+
+
+ 
+	
+	
+
+.item {padding:0px 0}
+
+.slider_img{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    display: inline-block;
+	xbox-shadow:2px 5.66px 20px 0px rgba(136, 136, 136, 0.4);
+  }
+
+.slider_p {
+    font-size: 16px;
+    color: #7e7e7e;
+    max-width: 750px;
+    display: inline-block;
+  }
+
+.s_name{
+    font-size: 18px;
+    color: #4f4f4f;
+    font-weight: bold;
+  }
+
+.slider_t {
+    font-size: 15px;
+    color: #7e7e7e;
+    padding-bottom: 25px;
+  }
+
+.slider .carousel-control.left, .slider .carousel-control.right{
+    background: none !important;
+    -webkit-filter: progid:none !important;
+            filter: progid:none !important;
+    opacity: 1;
+  }
+
+.form_fild {border:1px solid  rgba(53,53,53,0.66) !important; border-radius:0px !important }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+.footer_bg{
+    -webkit-clip-path: polygon(0 17%, 100% 0%, 100% 100%, 0 100%);
+            clip-path: polygon(0 17%, 100% 0%, 100% 100%, 0 100%);
+    position: relative;
+  }
+
+@media screen and (max-width: 991px) {
+      .footer_bg{
+        -webkit-clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0 100%);
+                clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0 100%);
+      }
+    }
+
+.footer_bg:after{
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: #001F37;
+      z-index: -1;
+    }
+
+
+
+

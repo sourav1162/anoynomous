@@ -1,0 +1,192 @@
+.enquiry_btn_2 {
+	background-color: rgba(0,0,0,.5);  position:fixed; right:-45px; top:50%; width:auto; padding:10px 15px; transform:rotate(270deg); padding-bottom:20px;
+	transition:250ms ease;
+	color:#FFFFFF;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	z-index:999;
+	font-size:16px
+	
+	 
+}
+
+.enquiry_btn_2:hover {
+	right:-30px;
+	background-color:rgba(0,203,255,1);
+	 
+}
+
+@media screen and (max-width: 767px) {
+ 
+.enquiry_btn {
+	 
+}
+
+.enquiry_btn li a { border-radius:50px; color: rgba(43,255,12,1.00) !important; }
+
+}
+
+
+@media (min-width: 768px) {
+.enquiry_btn {
+
+	/*border-radius:40px;
+	 border-top:2px solid rgba(78,204,0,1.00);
+	 border-left:2px solid rgba(78,204,0,1.00);
+	 border-right:2px solid rgba(78,204,0,1.00);
+	 border-bottom:2px solid rgba(78,204,0,1.00); */
+	animation: pulse 1s infinite;
+	margin-right:20px;
+	
+	 
+
+} 
+
+.enquiry_btn li a { border-radius:00px; color: rgba(78,204,0,1.00) !important; font-weight:bold; background-position:left}
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background: rgba(61,65,77,1.00);padding-left:10px;}
+}
+
+
+
+
+
+
+
+.dropdown-toggle , .dropdown-menu li a  { font-size:16px !important}
+
+	
+	
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+ 
+/*
+1.1 Header Area
+****************************************************/
+/*Bootstrap Reset*/
+.navbar-nav > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.mainmenu {
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 0;
+	border: 0px !important;
+}
+.navbar-nav > li:last-child > a {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.dropdown-menu {
+    padding: 0px 0; 
+    margin: 0 0 0; 
+    border: 0px solid transition !important;
+	border: 0px solid rgba(0,0,0,.15);	
+	border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+
+}
+
+/*=-====Main Menu=====*/
+.navbar-nav .open .dropdown-menu > li > a {
+ 
+}
+
+.header_area .header_bottom .mainmenu a , .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 13px 15px;
+}
+.header_area .mainmenu .active a,
+.header_area .mainmenu .active a:focus,
+.header_area .mainmenu .active a:hover,
+.header_area .mainmenu li a:hover,
+.header_area .mainmenu li a:focus ,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: rgba(255,255,255,1.00);
+    background: rgba(255,255,255,0.32);
+    outline: 0;
+	transition:250ms ease;
+}
+/*-----./ Main Menu-----*/
+
+.navbar-default .navbar-toggle { border-color: #fff } /*Toggle Button*/
+.navbar-default .navbar-toggle .icon-bar { background-color: #fff } /*Toggle Button*/
+
+/*==========Sub Menu=v==========*/
+.mainmenu .collapse ul > li:hover > a{background: rgba(0,203,255,1)}
+
+
+/*==========dropdown background in hover==========*/
+.mainmenu .collapse ul ul > li:hover > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+{background: rgba(0,203,255,1);}
+/*==========dropdown background in hover==========*/
+
+
+
+/*==========Sub-dropdown background in hover==========*/
+.mainmenu .collapse ul ul ul > li:hover > a{background:rgba(0,203,255,1);}
+/*==========Sub-dropdown background in hover==========*/
+
+
+
+/*dropdown background*/
+.mainmenu .collapse ul ul, .mainmenu .collapse ul ul.dropdown-menu{background: rgba(28,28,28,1.00);}
+/*dropdown background*/
+
+/*Sub dropdown background*/
+.mainmenu .collapse ul ul ul, .mainmenu .collapse ul ul ul.dropdown-menu{background: rgba(61,65,77,1.00);margin-left:-1px;}
+/*Sub dropdown background*/
+
+/******************************Drop-down menu work on hover**********************************/
+.mainmenu{background: none;border: 0 solid;margin: 0;padding: 0;min-height:20px}
+@media only screen and (min-width: 767px) {
+.mainmenu .collapse ul li{position:relative;}
+.mainmenu .collapse ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul li{position:relative}
+.mainmenu .collapse ul ul li:hover> ul{display:block}
+.mainmenu .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+/*******/
+.mainmenu .collapse ul ul ul li{position:relative}
+.mainmenu .collapse ul ul ul li:hover ul{display:block}
+.mainmenu .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
